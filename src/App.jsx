@@ -22,7 +22,7 @@ function App() {
      <Conclusion/>
     
         <a href ="#contact">
-      <button className='rounded-2xl bg-blue-500 hover:bg-black px-7 py-5 my-5 text-white'>Get In Touch</button>
+      <button className='rounded-2xl bg-blue-500 hover:bg-black px-7 py-5 my-5 mx-170 text-white align-middle'>Get In Touch</button>
       </a>
      <Last/>
   </div>

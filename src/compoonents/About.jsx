@@ -5,33 +5,38 @@ const About = () => {
   return (
     <div
       id="About"
-      className="flex flex-col md:flex-row items-center justify-center px-6 py-12 md:px-16 lg:px-24 gap-8 bg-transparent
-       w-screen h-screen"
+      className="flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 md:px-16 lg:px-24 py-12 gap-10 bg-[#0b1320] text-white w-full min-h-screen"
     >
-      <div className="flex-shrink-0">
+      {/* Left Side Image */}
+      <div className="flex-shrink-0 flex justify-center">
         <img
-          className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-lg hover:-translate-y-3 transition-transform"
+          className="w-56 h-56 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-lg hover:-translate-y-3 transition-transform duration-300"
           src="about4.jpg"
           alt="About"
         />
       </div>
 
+      {/* Right Side Text */}
       <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-6 max-w-xl">
-        <h1 className="font-bold text-4xl md:text-5xl text-white underline">About Me</h1>
-        <p className="text-lg md:text-2xl text-white">
-          A passionate Web developer with a knack for creative problem-solving.
-        </p>
-        <p className="text-white">
-          I specialize in building full-stack web applications that are not only functional but also deliver
-          exceptional user experiences. With a strong foundation in both frontend and backend technologies,
-          I bridge the gap between design and functionality.
-          <br />
-          <br />
-          When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-          or sharing my knowledge with the developer community.
+        <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl underline text-yellow-300">
+          About Me
+        </h1>
+
+        <p className="text-base sm:text-lg md:text-xl text-gray-100">
+          A passionate Web Developer with a knack for creative problem-solving.
         </p>
 
-        <div className="flex space-x-4">
+        <p className="text-sm sm:text-base md:text-lg text-gray-200 leading-relaxed">
+          I specialize in building full-stack web applications that are both functional and user-friendly.
+          With a strong foundation in front-end and back-end technologies, I focus on creating seamless
+          digital experiences that blend <b>design</b> with <b>performance</b>.
+          <br /><br />
+          When I’m not coding, I love exploring new technologies, contributing to open-source projects, or
+          sharing my learnings with the developer community.
+        </p>
+
+        {/* Social Icons */}
+        <div className="flex flex-wrap justify-center md:justify-start gap-4">
           <a
             href="https://github.com"
             target="_blank"
@@ -50,8 +55,9 @@ const About = () => {
           </a>
         </div>
 
+        {/* Button */}
         <a href="#contact">
-          <button className="rounded-2xl bg-blue-500 hover:bg-black px-6 py-3 text-white transition">
+          <button className="rounded-2xl bg-blue-600 hover:bg-black px-6 py-3 text-white text-base sm:text-lg font-medium transition-transform duration-300 hover:scale-105">
             Get In Touch
           </button>
         </a>
