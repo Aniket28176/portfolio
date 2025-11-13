@@ -1,10 +1,47 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* ✨ Continuous Typewriter Animation (smooth typing + erasing loop) */
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #FFD700; /* blinking gold cursor */
+  display: inline-block;
+  animation: typing 10s steps(12, end) infinite alternate, blink 0.8s step-end infinite;
+}
+
+/* Type and Erase continuously */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 12ch; /* number of characters in your name */
+  }
+  100% {
+    width: 0;
+  }
+}
+
+/* Blinking Cursor */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+/* Existing styles below */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,4 +77,3 @@
 .read-the-docs {
   color: #888;
 }
-

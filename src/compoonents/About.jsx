@@ -5,7 +5,8 @@ const About = () => {
   return (
     <div
       id="About"
-      className="flex flex-col md:flex-row items-center justify-center px-6 py-12 md:px-16 lg:px-24 gap-8 bg-transparent"
+      className="flex flex-col md:flex-row items-center justify-center px-6 py-12 md:px-16 lg:px-24 gap-8 bg-transparent
+       w-screen h-screen"
     >
       <div className="flex-shrink-0">
         <img

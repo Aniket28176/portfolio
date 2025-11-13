@@ -13,7 +13,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-  <div className='bg-blue-950 overflow-hidden min-h-screen min-w-screen gap-20'>
+  <div className='bg-blue-950 overflow-hidden min-h-screen min-w-screen'>
     <Navbar/>
     <Skills/>
         <About/>
