@@ -48,7 +48,7 @@ const Navbar = () => {
 
         {/* Text Content */}
         <div className="flex flex-col gap-4 md:gap-6 text-center md:text-left max-w-xl">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl text-yellow-300 font-bold typewriter">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl text-yellow-300 font-bold typewriter mx-21">
             Aniket Ghosh
           </h1>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed">
