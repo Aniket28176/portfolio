@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div id="Home" className="bg-[#0b1320] text-white w-full min-h-screen">
       {/* Top Navigation */}
-      <nav className="flex flex-wrap justify-between items-center px-6 py-4">
+      <nav className="flex flex-wrap justify-between items-center px-6 py-4 fixed top-0 right-0 left-0">
         <span className="font-bold text-3xl md:text-5xl">Portfolio</span>
 
         <ul className="flex flex-wrap justify-center md:justify-end gap-3 md:gap-6 mt-4 md:mt-0 font-semibold">
@@ -38,16 +38,16 @@ const Navbar = () => {
       </nav>
 
       {/* Hero Section */}
-      <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-8 md:gap-12 px-6 md:px-20 py-10">
+      <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-8 md:gap-12 px-6 md:px-20 py-10 mt-1">
         {/* Profile Image */}
         <img
-          className="w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full object-cover transform transition-transform duration-500 hover:scale-110 bg-blue-500 p-1"
+          className="w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full object-cover transform transition-transform duration-500 hover:scale-110 bg-blue-500 p-1 mt-30"
           src="aniket5.jpg"
           alt="Aniket Ghosh"
         />
 
         {/* Text Content */}
-        <div className="flex flex-col gap-4 md:gap-6 text-center md:text-left max-w-xl">
+        <div className="flex flex-col gap-4 md:gap-6 text-center md:text-left max-w-xl mt-30">
           <h1 className="text-4xl sm:text-5xl md:text-6xl text-yellow-300 font-bold typewriter mx-7">
             Aniket Ghosh
           </h1>
