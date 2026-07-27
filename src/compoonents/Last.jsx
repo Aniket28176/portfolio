@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 
 const Last = () => {
   return (
-    <footer className='bg-gray-700 text-white px-6 py-8'>
+    <footer className='bg-gray-700 text-white px-6 py-8 h-80'>
       <div className='flex flex-col md:flex-row md:justify-between md:items-start gap-10'>
 
         
