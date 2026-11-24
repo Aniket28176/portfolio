@@ -10,7 +10,7 @@ const Home = () => {
         {/* Profile Image */}
         <img
           className="w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full object-cover transform transition-transform duration-500 hover:scale-110 bg-blue-500 p-1 mt-30"
-          src="aniket5.jpg"
+          src="aniket4.jpeg"
           alt="Aniket Ghosh"
         />
 

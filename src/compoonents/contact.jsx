@@ -39,7 +39,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="min-h-screen bg-black flex flex-col items-center justify-center px-4">
+    <div id="contact" className="min-h-screen flex flex-col items-center justify-center px-4">
       <h1 className="text-3xl font-bold text-blue-900 mb-8">Contact Me</h1>
 
       {/* Cards */}

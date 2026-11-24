@@ -13,24 +13,19 @@ import Projects from './compoonents/Project'
 import Stairs from './compoonents/Stairs'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-blue-950 overflow-hidden min-h-screen min-w-screen'>
+    <div className='bg-[#440988] overflow-hidden min-h-screen min-w-screen'>
       <Stairs>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Navigate to="/" replace />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/project" element={<Projects />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
-      <Philosophy />
+        <Home />
+        <Skills />
+        <About />
+        <Contact />
+        <Projects />
+      <Philosophy/> 
       <Conclusion />
-      <Last />
+      <Last/>
       </Stairs>
     </div>
   )
